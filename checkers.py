@@ -21,5 +21,6 @@ def move(board, row, col, row2, col2):
     board[row][col] = ' '
 
 board = initial_board()
+move(board, 0,0,1,1)
 
 display(board)
