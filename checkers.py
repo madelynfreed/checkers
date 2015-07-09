@@ -48,8 +48,11 @@ def check_move_valid(board, initial_row, initial_col, final_row, final_col):
 
 
 board = initial_board()
+
 move(board, 2, 0, 3, 1)
 display(board)
 move(board, 3, 1, 4, 0)
+move(board, 0,0,1,1)
+
 
 display(board)
